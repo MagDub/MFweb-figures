@@ -60,6 +60,6 @@ title_ = '\fontsize{22} \sigma_{0,LH}';
 legend_position = [0.517636684303351 0.361108660117886 0.0846560846560844 0.0794021129626089];
 render_corr(para_vals_fitted(:,2),para_vals_generated(:,2), param_bounds_sgm0, [0.5:0.5:2.5], title_, 'g', legend_position);
 
-% Export
-addpath('../../export_fig')
-export_fig(['Fig4S2.tif'],'-nocrop','-r200')
+% % Export
+% addpath('../../export_fig')
+% export_fig(['Fig4S2.tif'],'-nocrop','-r200')

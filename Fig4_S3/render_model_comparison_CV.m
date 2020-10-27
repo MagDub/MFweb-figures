@@ -39,9 +39,9 @@ function [] = render_model_comparison_CV(letter, subplot_title)
     col_(1,:) = [0.729411780834198 0.831372559070587 0.95686274766922];
     col_(2,:) = [0.39215686917305 0.474509805440903 0.635294139385223];
 
-    x = [1:4 6:9 11:14];
+    x = [1:3 5:7 9:11 13:15];
 
-    I = 1:1:size(mean_all,2); 
+    I = [1,5,9,2,6,10,3,7,11,4,8,12]; 
 
     bar(x,mean_all(I)*100,'FaceColor',col_(1,:), 'FaceAlpha', 1); hold on;
 
@@ -53,7 +53,8 @@ function [] = render_model_comparison_CV(letter, subplot_title)
     box off;
     ylim(yrange)
     xticks(x)
-    xticklabels(legend_all(I));
+    xlim([0 x(end)+1])
+    xticklabels(legend_all(I))
     xtickangle(45)
     set(gca,'YTick',0:2:100)
 

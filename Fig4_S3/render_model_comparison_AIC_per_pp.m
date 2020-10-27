@@ -34,8 +34,10 @@ function [] = render_model_comparison_AIC_per_pp(letter, subplot_title)
     col_(1,:) = [0.729411780834198 0.831372559070587 0.95686274766922];
     col_(2,:) = [0.39215686917305 0.474509805440903 0.635294139385223];
 
-    x = 1:n_model+2;
-    x =[x(1:1+3), x(6:6+3) x(11:11+3)];
+    x = [1:3 5:7 9:11 13:15];
+
+    I = [1,5,9,2,6,10,3,7,11,4,8,12];
+    val=val(I);
 
     b = bar(x,val,'FaceColor',col_(1,:),'BarWidth',.7);  hold on;
 
@@ -49,9 +51,9 @@ function [] = render_model_comparison_AIC_per_pp(letter, subplot_title)
     set(gca,'YTick',0:10:100)
     ylim([0  45])
 
-    xticks(1:n_model+2);
-    xticklabels([legend_all(1:1+3),{''}, legend_all(5:5+3),{''},legend_all(9:9+3)]);
-    xlim([0,n_model+3])
+    xticks(x)
+    xlim([0 x(end)+1])
+    xticklabels(legend_all(I));
 
     xtickangle(45)
     
