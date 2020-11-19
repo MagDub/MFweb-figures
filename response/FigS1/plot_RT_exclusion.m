@@ -38,7 +38,7 @@ function [] = plot_RT_exclusion()
     set(gca,'box','off')
     
     % Number and title
-    text(0-0.2, 1+0.2,'b','Units', 'Normalized', 'VerticalAlignment', 'Top','FontSize', 26)
+    text(0-0.2, 1+0.2,'c','Units', 'Normalized', 'VerticalAlignment', 'Top','FontSize', 26)
     t=title('Reaction time','FontSize', 18, 'FontName','Arial', 'Fontweight','normal');
 
 end
