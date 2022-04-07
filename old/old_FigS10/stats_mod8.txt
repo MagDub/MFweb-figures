@@ -1,0 +1,22 @@
+
+MOD8 TAU:
+
+Pairwise comparisons for horizon effect (t( 60 )= -0.684 , p= 0.497 , d= 0.088 , 95% Confidence interval =  -0.103 , 0.05 )
+
+
+
+MOD8 GAMMA:
+
+Pairwise comparisons for horizon effect (t( 60 )= -4.771 , p= 0 , d= 0.611 , 95% Confidence interval =  -0.532 , -0.218 )
+
+
+
+MOD8 EPSILON:
+
+Pairwise comparisons for horizon effect (t( 60 )= -2.998 , p= 0.004 , d= 0.384 , 95% Confidence interval =  -0.062 , -0.012 )
+
+
+
+MOD8 NOV:
+
+Pairwise comparisons for horizon effect (t( 60 )= -6.278 , p= 0 , d= 0.804 , 95% Confidence interval =  -0.633 , -0.327 )

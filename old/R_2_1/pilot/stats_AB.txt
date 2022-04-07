@@ -1,0 +1,15 @@
+
+
+HIGH VALUE AB
+
+AB main effect: F( 1 , 60 )= 83.248 , p= 0 , pes= 0.581 ; Horizon main effect: F( 1 , 60 )= 71.41 , p= 0 , pes= 0.543 ; AB-by-Horizon interaction effect: F( 1 , 60 )= 27.767 , p= 0 , pes= 0.316 ;
+
+-------------------------------------------------------
+
+Pairwise comparisons for AB effect :  (  A vs B: t( 122 )= 11.747 , p= 0 , d= 1.064 , 95% Confidence interval =  5.214 , 7.327 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for interaction effect: Horizon effect in A: t( 61 )= -9.092 , p= 0 , d= 1.164 , 95% Confidence interval =  -7.23 , -4.622 Horizon effect in B: t( 61 )= -5.825 , p= 0 , d= 0.746 , 95% Confidence interval =  -4.217 , -2.061 )
+
+-------------------------------------------------------
